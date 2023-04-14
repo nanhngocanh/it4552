@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <style>
+        *{ 
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #header{
+            height:100px;
+            text-align: center;
+        }
+        #content{
+            background-color: rgb(245, 241, 236);
+            height: 600px;
+            width: 500px;
+                 
+        }
+        h2{
+            text-align: center;
+        }
+       
+        .field{
+            height: 50px;    
+        }
+       
+    </style>
+
+
+    <div id = "main">
+        <div id="header">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"width="282px" height="100px">
+        <div> 
+        <div id="content">
+            <h2> Create a new account </h2>
+            <p>It's quick and easy</p>
+            <hr>
+
+            <div class="field">
+                <label for="">First name</label>
+                <input type="text" required>
+                <label for="">Surname name</label>
+                <input type="text" required>
+            </div>
+
+            <div class="field">
+                <label for="">Email address or mobile number</label>
+                <input type="email" required>
+            </div>
+
+            <div class="field">
+                <label for="">New password</label>
+                <input type="password" required>  
+            </div>
+            
+            
+            <div class="field">
+                <label for="">Date of birth</label>
+                <input type="date" required>  
+            </div> 
+
+            <div class="field">
+                <label for="">Gender</label>
+                <input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Custom
+            </div>
+
+            <div>
+               <h6>People who use our service may have uploaded your contact information to Facebook</h6>
+               <h6>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</h6>
+            </div>
+
+             
+            <div class="field">
+                <input style="background-color: rgb(114, 235, 114);height: 40px;width: 100px;;" type="submit" value="Sign Up">
+            </div>
+
+            <div class="field">
+                <a href="https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjY2NTMwNDcyLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">Already have an account?</a>
+    
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

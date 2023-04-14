@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {    
+            background-color: rgba(255, 255, 255, .8);
+        }
+        .sign {
+            width: 400px;
+            height: 40%;
+            position: relative;
+            margin: auto ;
+            /* margin-top: 30%; */
+            box-shadow: 0 1px 3rem 0 rgb(0 0 0 / 20%);
+            padding: 10px;
+        }
+        .sign1 {
+            position: relative;
+            top: -30px;
+        }
+        .regis {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        button {
+            background-color: green;
+            border-radius: 2px;
+            display: flex;
+            margin: auto;
+            font-size: 22px;
+            color: aliceblue;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+        }
+        
+        .name {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* margin: 5px 0  0 15px; */
+
+        }
+        
+        .date {
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .day,.month,.year {
+            width: 30%;
+            height: 30px;
+        }
+        .first, .last {
+            width: 45%;
+            height: 30px;
+        }
+        .last {
+            margin-left: 22px;
+        }
+        .number, .pass {
+            width: 97.7%;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        .gender {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .nam, .nu,.none {
+            padding: 4px;
+            border: solid 1px;
+            width: auto;
+        }
+        
+        p {
+            font-size: 13px;
+        }
+        img {
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="sign">
+
+        <div class="regis">
+            <h1>Đăng kí</h1>
+            <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png" alt="">
+            
+        </div>
+        <div class="sign1"><br>Nhanh chóng và dễ dàng</div>
+        <div>
+            <div class="name">
+                <input type="text" placeholder="Họ" class="first">
+                <input type="text" placeholder="Tên" class="last"><br>
+
+            </div>
+                <input type="text" placeholder="Số di động hoặc email" class="number"><br>
+                <input type="text" placeholder="Mật khẩu mới" class="pass">
+    
+        </div>
+        <p>
+            Ngày sinh
+        </p>
+        <div class="date">
+
+            <select name="Ngay" class="day">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+            <select name="Thang" class="month">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+            </select>
+            <select name="Nam" class="year">
+                <option value="">2022</option>
+                <option value="">2021</option>
+                <option value="">2020</option>
+                <option value="">2019</option>
+                <option value="">2018</option>
+                <option value="">2017</option>
+                <option value="">2016</option>
+                <option value="">2015</option>
+                <option value="">2014</option>
+                <option value="">2013</option>
+            </select>
+        </div>
+        <span ><br>Giới tính</span>
+        <div class="gender">
+            <div class="nam">
+                <label for="">Nam</label>
+                <input type="radio">
+            </div>
+            <div class="nu">
+                <label for="">Nữ</label>
+                <input type="radio">
+            </div>
+            <div class="none">
+                <label for="">Tuỳ chỉnh</label>
+                <input type="radio">
+            </div>
+        </div>
+        <p>Người dùng dịch vụ của chúng tôi có thể đã tải thông tin liên hệ của bạn lên Facebook.
+        <a href="">Tìm hiểu thêm</a>
+        </p>
+        <p>
+            Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="">Điều khoản, Chính sách quyền riêng tư</a> và <a href="">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+        </p>
+        <button >Đăng kí</button>
+    </div>
+</body>
+</html>
